@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+* {  margin: 0 ; padding: 0 ; }
+
+
+header {
+  background-color: gainsboro ; color: #596157;  height: 20px ; width: 60% ;
+  text-align: center; padding: 20px 0 40px 0  ; margin: 0 auto;
+  margin-bottom: 30px ; margin-top: 25px ;
+}
+
+/*the input ... */
+#newTask {
+  text-align: center ; margin: 0 auto;
+}
+
+#newTask button {
+  height:40px; width:100px;
+}
+
+#newTask input {
+    height:38px; width:320px; text-align: left; padding-left: 10px ;
+}
+/*the whole functionality ... */
+#newLineOfTask ul {
+ margin-top: 30px ;
+}
+input[type=text]:hover{
+    background-color : #ffcce6 ;
+    outline: none;
+}
+.DEButtons {
+  height : 17px;
+  width : 17px;
+  background-size : cover ;
+  border-radius : 50% ;
+  position: absolute;
+}
